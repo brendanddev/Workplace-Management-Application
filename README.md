@@ -40,3 +40,25 @@ This project is designed to model a real-world workplace application where an ad
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/repositoryname.git
+2. Open the project in Visual Studio.
+3. Set up your SQL Server database.
+   Use the provided SQL scripts to create the necessary tables for storing employee and user data.
+4. Restore NuGet packages:
+   Open the Tools menu and select NuGet Package Manager.
+   Click Restore NuGet Packages.
+5. Build the project.
+6. Run the application by starting the LoginForm or AdminForm.
+
+### Usage
+**Admin Login:**
+1. The application provides a login screen for administrators and staff.
+2. Admin users can manage employee records and access sensitive data.
+3. Staff members have limited access to view their own records and monthly earnings.
+
+### File Import/Export:
+Employees can be imported from CSV or JSON files for bulk data entry.
+Employees' details can also be exported to these file formats.
+Password Management:
+User passwords are hashed with BCrypt before being stored in the database, ensuring data security.
+Contributing
+Contributions are welcome! If you'd like to improve or extend the functionality of this project, please fork the repository and submit a pull request with your changes.
